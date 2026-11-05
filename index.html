@@ -275,9 +275,7 @@ a { color: inherit; }
   var RSVP_PHONE = "18574528545"; // número de WhatsApp para confirmar (prueba)
   var EVENT = new Date("2026-11-20T11:30:00-05:00");
   // Invitados: cada uno recibe el link de la invitación terminado en #codigo
-  var GUESTS = {
-    "demo": { name: "Srta. Ivanna Pilataxi", passes: 1 }
-  };
+  var GUESTS = {};
 
   document.documentElement.classList.add("js");
   var code = decodeURIComponent((location.hash || "").slice(1)).toLowerCase();
